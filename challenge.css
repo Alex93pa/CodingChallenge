@@ -1,0 +1,68 @@
+body{
+  background-image: url(background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.quadrato{
+  width: 700px;
+  height: 400px;
+  background-color: rgba(0,0,0,0.5);
+  border-radius: 2%;
+  margin: auto;
+  margin-top: 30px;
+  padding: 50px;
+}
+
+#logo{
+  width: 20%;
+  height: 20%;
+}
+
+.title{
+  text-align: center;
+  color: #39ff14;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.navbar{
+  background-color: #39ff14;
+  padding: 1%;
+}
+
+.name1{
+  color: white;
+  margin-bottom: 4px;
+  font-family: arial;
+  font-size: 16px;
+}
+
+.name2{
+  color: white;
+  margin-bottom: 2px;
+  font-family: arial;
+  font-size: 11px;
+  margin-left: inherit;
+}
+
+
+.wideBar{
+  height: 20px;
+  border-radius: 4px;
+}
+
+.wideBar.yellow {
+  background: #E0C217;
+  width: 45%;
+}
+
+.wideBar.green {
+  background: #3DAE00;
+  width: 65%;
+}
+
+.wideBar.red {
+  background: #AE1000;
+  width: 20%;
+}
